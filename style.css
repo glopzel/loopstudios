@@ -52,10 +52,6 @@ body {
   margin: 0 2em;
 }
 
-/* .first-nav {
-    background: rgba(255, 255, 255, 0.4)
-  } */
-
 .mobile-nav-toggle {
   display: none;
 }
@@ -97,14 +93,6 @@ h1 {
   /* margin: 32px; */
   padding: 30px;
 }
-
-/* h2 {
-    font-size: clamp(2rem, 5vh, 3rem);
-} */
-
-/* h3 {
-    font-size: clamp(2rem, 5vh, 3.5rem);
-} */
 
 h2, h3 {
     font-size: 2rem;
@@ -189,8 +177,6 @@ a,
 
 .single-image {
   color: white;
-  /* z-index: -2; */
-  /* opacity: 1; */
   background-repeat: no-repeat;
   background-size: cover;
   flex: 1;
@@ -324,7 +310,7 @@ footer img {
         MEDIA QUERIES
 */
 
-@media (max-width: 43em) {
+@media (max-width: 46em) {
   main {
     background-image: url("images/mobile/image-hero.jpg");
     background-size: cover;
